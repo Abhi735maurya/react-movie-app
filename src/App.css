@@ -1,0 +1,41 @@
+.card{
+  margin: 8px;
+  width: 16rem;
+  
+}
+.card-text{
+  font-size:15px;
+}
+.nav-link{
+  margin-left: 40px;
+}
+body{
+  background-color: rgb(67, 59, 116);
+}
+.navbar{
+  position: sticky;
+  top:0;
+  z-index: 5;
+}
+h1{
+  color:white;
+  text-align: center;
+}
+@media screen and (max-width: 420px) {
+  .card {
+    margin-left:10%;
+    width:80%;
+    margin-right: 10%;
+    box-sizing: border-box;
+    
+    
+  }
+}
+.disapear{
+  display:none;
+}
+.notFound{
+  color:white;
+  font-size: larger;
+  margin:15%;
+}
